@@ -1,7 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
 body {
-  background-color: rgb(225 222 225);
   font-family: 'Josefin Sans', sans-serif;
   color: rgb(31, 30, 30);
   font-size: 19PX;
@@ -32,23 +31,28 @@ a {
 }
 
 .container{
-  background: #e1dee1;
+  background: #315385;
   width: 700px;
   margin: 50px auto;
   border-radius: 11px;
 }
 
 .card {
-  background: #8c9094d6;
-  border: 10px;
-  border-radius: 10px;
-  box-shadow: 1px 5px 5px #efeff3;
+  background: #c5c9ccd6;
+  border: 11px;
+  border-radius: 29px;
+  box-shadow: 1px 5px 5px #ffffff;
+  padding: 0px;
 }
 .cardmountain{
-  background-image: url("../images/Bakckground image.jpg");
-  border: 10px;
-  border-radius: 10px;
-  box-shadow: 1px 5px 5px #efeff3;
+  background-image: url("images/Bakckground image.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 11px;
+  border-radius: 29px;
+  box-shadow: 1px 5px 5px #ffffff;
+  padding: 0px;
+
 }
 
 .list i {
@@ -75,8 +79,8 @@ a {
 }
 .btn-blue:hover{
   background-color: rgb(192 192 215);
-  border-radius: 6px;
-  padding: 4px;
+  border-radius: 15px;
+  padding: 12px;
 }
 
 .btn-gradient {
